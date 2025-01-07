@@ -122,8 +122,6 @@ python Final_code.py
 3. **Task Allocation**:
    - Fires were extinguished sequentially, optimizing energy usage and efficiency.
 
-![Simulation Example](example_plot.png)
-
 ---
 
 ## Future Work
