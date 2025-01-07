@@ -65,8 +65,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/Multi-Robot-Firefighting.git
-   cd Multi-Robot-Firefighting
+   git clone https://github.com/pranaypalem/artificial-potential-field.git
+   cd artificial-potential-field
    ```
 
 2. Install dependencies:
@@ -113,6 +113,16 @@ python Final_code.py
 
 ---
 
+## Robotarium Simulation
+
+The Robotarium platform was used to simulate and test the multi-robot system in a controlled environment. Key features of Robotarium usage include:
+
+- **Dynamic Testing**: Verified collision-free navigation using barrier certificates.
+- **Visualization**: Enabled real-time observation of robot paths and behaviors.
+- **Code Validation**: Ensured the APF-based navigation and energy-aware strategies worked as intended in a physical-like simulation setup.
+
+---
+
 ## Simulation Results
 
 1. **Navigation**:
@@ -122,6 +132,8 @@ python Final_code.py
 3. **Task Allocation**:
    - Fires were extinguished sequentially, optimizing energy usage and efficiency.
 
+![Simulation Example](example_plot.png)
+
 ---
 
 ## Future Work
@@ -129,6 +141,4 @@ python Final_code.py
 - **Local Minima Handling**: Improve APF to avoid trapping robots.
 - **Dynamic Task Allocation**: Integrate learning-based methods for enhanced coordination.
 - **Real-World Deployment**: Extend simulations to physical robots.
-
----
 
