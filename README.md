@@ -132,8 +132,6 @@ The Robotarium platform was used to simulate and test the multi-robot system in 
 3. **Task Allocation**:
    - Fires were extinguished sequentially, optimizing energy usage and efficiency.
 
-![Simulation Example](example_plot.png)
-
 ---
 
 ## Future Work
